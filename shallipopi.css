@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.music-player{
+    background: linear-gradient(#ed9340, #583719) ;
+    width: 400px;
+    padding: 25px 35px;
+    text-align: center;
+    border-radius: 20px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+nav .circle{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    background: #fff;
+    color: black;
+    box-shadow: 0 5px 10px rgba(255, 26, 26, 0.22);
+}
+.song-img{
+    width: 220px;
+    border-radius: 50%;
+    border: 8px solid #fff;
+    box-shadow: 0 10px 60px rgba(255, 26, 26, 0.22);
+}
+
+
+.music-player h1{
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    margin-top: 20px;
+}
+.music-player p{
+    font-size: 14px;
+    color: white;
+}
+
+#progress{
+    -webkit-appearance: none;
+    width: 100%;
+    height: 6px;
+    background: #1ed760;
+    cursor: pointer;
+    margin: 40px 0;
+    border-radius: 4px;
+}
+#progress::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    background: black;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 8px solid #fff;
+    box-shadow: 0 5px 5px rgba(255, 26, 26, 0.22);
+}
+.controls{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.controls div{
+    width: 60px;
+    height: 60px;
+    margin: 20px;
+    background: #fff;
+    justify-content: center;
+    display: inline-flex;
+    align-items: center;
+    border-radius: 50%;
+    color: #f53192;
+    box-shadow: 0 5px 5px rgba(255, 26, 26, 0.22);
+    cursor: pointer;
+}
+.controls div:nth-child(1){
+    transform: scale(1);
+    background: white;
+    color: black;
+}
+.controls div:nth-child(3){
+    transform: scale(1);
+    background: white;
+    color: black;
+}
+.controls div:nth-child(2){
+    transform: scale(1.2);
+    background: #1ed760;
+    color: black;
+}

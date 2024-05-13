@@ -1,0 +1,1061 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Noto Sans', sans-serif;
+
+}
+.up{
+    width: 100%;
+    height: 12vh;
+    background-color: white;
+    box-shadow: 3px 1px 0px 1px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+.spoti{
+    width: fit-content;
+    height: fit-content;
+    /* background-color: green; */
+    display: flex;
+    align-items: center;
+}
+.ri-spotify-fill{
+    font-size: 45px;
+}
+.spoti h3{
+    font-size: 21.9px;
+}
+.spoti p{
+    font-size: 24px;
+}
+
+.bspoti{
+    width: 60%;
+    height: 11vh;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    justify-content: space-evenly;
+}
+.ri-arrow-down-s-line{
+    font-size: 27px;
+}
+.but-one button{
+    padding: 1px;
+    font-size: 16px; 
+    display: flex;
+    align-items: center;
+    background: none;
+    border: none;
+}
+.drop{
+    width: 230px;
+    height: 215px;
+    background-color: white;
+    border: 1px solid rgb(189, 185, 185);
+    position: absolute;
+    margin: 5px 0 0 0;
+    left: 30%;
+    display: none;
+}
+.firstdrop:focus-within .drop{
+    display: block;
+}
+.dropp{
+    line-height: 29px;
+    margin: 20px 0 0 25px;
+    font-size: 15px;
+}
+
+
+
+
+.but-two button{
+    padding: 1px;
+    font-size: 16px; 
+    display: flex;
+    align-items: center;
+    background: none;
+    border: none;
+}
+.seconddrop:focus-within .drop-ii{
+    display: block;
+}
+.drop-ii{
+    width: 230px;
+    height: 220px;
+    background-color: white;
+    border: 1px solid rgb(189, 185, 185);
+    position: absolute;
+    margin: 5px 0 0 0;
+    left: 45%;
+    display: none;
+}
+.dropp-i{
+    line-height: 30px;
+    margin: 20px 0 0 25px;
+    font-size: 15px;
+}
+
+
+
+
+
+
+.but-third button{
+    padding: 1px;
+    font-size: 16px; 
+    display: flex;
+    align-items: center;
+    background: none;
+    border: none;
+}
+.thirddrop:focus-within .drop-iii{
+    display: block;
+}
+.drop-iii{
+    width: 230px;
+    height: 170px;
+    background-color: white;
+    border: 1px solid rgb(189, 185, 185);
+    position: absolute;
+    margin: 5px 0 0 0;
+    left: 55%;
+    display: none;
+}
+.dropp-ii{
+    line-height: 33px;
+    margin: 20px 0 0 25px;
+    font-size: 15px;
+}
+
+
+
+
+
+
+
+
+.but-four button{
+    padding: 1px;
+    font-size: 16px; 
+    display: flex;
+    align-items: center;
+    background: none;
+    border: none;
+}
+.fourdrop:focus-within .drop-iv{
+    display: block;
+}
+.drop-iv{
+    width: 230px;
+    height: 245px;
+    background-color: white;
+    border: 1px solid rgb(189, 185, 185);
+    position: absolute;
+    margin: 5px 0 0 0;
+    left: 65%;
+    display: none;
+}
+.dropp-iii{
+    line-height: 31px;
+    margin: 20px 0 0 25px;
+    font-size: 15px;
+}
+
+
+
+
+
+
+
+
+.but-five button{
+    padding: 1px;
+    font-size: 16px; 
+    display: flex;
+    align-items: center;
+    background: none;
+    border: none;
+}
+.fivedrop:focus-within .drop-v{
+    display: block;
+}
+.drop-v{
+    width: 230px;
+    height: 325px;
+    background-color: white;
+    border: 1px solid rgb(189, 185, 185);
+    position: absolute;
+    margin: 5px 0 0 0;
+    left: 75%;
+    display: none;
+}
+.dropp-v{
+    line-height: 33px;
+    margin: 20px 0 0 25px;
+    font-size: 15px;
+}
+
+.lastbutton{
+    padding: 13px;
+    border: none;
+    border-radius: 30px;
+    background-color: black;
+    width: 17%;
+    letter-spacing: 1px;
+}
+.lastbutton a{
+    text-decoration: none;
+    color: white;
+}
+.lastbutton:hover{
+    background-color: gray;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+
+
+.cyril{
+    width: 100%;
+    height: 600px;
+    /* background-color: gold; */
+    display: flex;
+}
+.cyrilimg{
+    margin-left: 3%;
+    margin-top: 30px;
+}
+.cyriltext{
+    margin-top: 70px;
+    width: 650px;
+    height: 400px;
+    /* background-color: rebeccapurple; */
+    margin-right: 5%;
+}
+.cyriltext h1{
+    font-size: 60px;
+    letter-spacing: -3px;
+    line-height: 65px;
+    font-family: 'Poppins', sans-serif;
+}
+.cyriltext p{
+    margin-top: 30px;
+    font-size: 19px;
+    line-height: 30px;
+}
+.cyrilbut{
+    margin-top: 25px;
+    width: 100%;
+    /* background-color: green; */
+    height: 80px;
+}
+.latt{
+    padding: 13px;
+    border: none;
+    border-radius: 30px;
+    background-color: black;
+    width: 27%;
+    letter-spacing: 1px;
+    color: white;
+}
+.latt a{
+    text-decoration: none;
+    color: white;
+}
+.latt:hover{
+    background-color: gray;
+    transition: 0.5s;
+}
+.latr{
+    margin-left: 4%;
+    padding: 13px;
+    border: none;
+    border-radius: 30px;
+    background-color: black;
+    width: 27%;
+    letter-spacing: 1px;
+    color: white;
+}
+.latr:hover{
+    background-color: gray;
+    transition: 0.5s;
+}
+
+
+
+
+
+
+
+
+
+.dell{
+    width: 100%;
+    height: 90vh;
+    background-color: black;
+}
+.dell-i{
+    margin-top: 90px;
+    width: 73%;
+    height: 60%;
+    /* background-color: aquamarine; */
+    position: absolute;
+    right: 0;
+}
+.dell-i h3{
+    color: white;
+    font-size: 26px;
+    font-family: 'Poppins', sans-serif;
+
+}
+.dell-ii{
+    /* background-color: green; */
+    width: 95%;
+    height: 87%;
+    display: flex;
+}
+.dello{
+    width: 30%;
+    height: 100%;
+    /* background-color: gold; */
+    color: white;
+}
+.dello h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 95px;
+    letter-spacing: -15px;
+}
+.dello p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    letter-spacing: -1px;
+}
+.ii{
+    margin-top: 8px;
+}
+.dello i{
+    font-size: 12px;
+}
+
+.dellop{
+    width: 30%;
+    height: 100%;
+    /* background-color: khaki; */
+    color: white;
+}
+.dellop h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 95px;
+    letter-spacing: -9px;
+}
+.dellop p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    letter-spacing: -1px;
+}
+.iii{
+    margin-top: 13px;
+}
+.dellop i{
+    font-size: 12px;
+    line-height: 25px;
+}
+.dellok{
+    width: 35%;
+    height: 100%;
+    /* background-color: rgb(255, 115, 0); */
+    color: white;
+}
+.dellok h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 95px;
+    letter-spacing: -10px;
+}
+.dellok p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    letter-spacing: -1px;
+}
+.kk{
+    margin-top: 12px;
+}
+.dellok i{
+    font-size: 12px;
+}
+
+
+
+
+
+
+.white{
+    width: 100%;
+    height: 80vh;
+    /* background-color:goldenrod ; */
+    display: flex;
+}
+.whimg{
+    margin-top: 70px;    
+    margin-left: 7%;
+}
+.whtext{
+    width: 70%;
+    height: 60vh;
+    /* background-color: khaki; */
+    margin-top: 60px;
+}
+.whtext h1{
+    margin-top: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 45px;
+    letter-spacing: -2px;
+}
+.whtext p{
+    margin-top: 15px;
+    font-size: 17px;
+    letter-spacing: 1px;
+    line-height: 32px;
+}
+.aa{
+    margin-top: 45px;
+    display: flex;
+    align-items: center;
+}
+.aa a{
+    color: black;
+    font-size: 19px;
+}
+.aa  :hover{
+    color: gray;
+    scale: 0.999;
+}
+.ri-arrow-right-circle-line{
+    font-size: 30px;
+}
+
+
+
+.gray{
+    background-color: #f9f9f9;
+    width: 100%;
+    height: 120vh;
+    position: relative;
+}
+.firstgray{
+    /* background-color: gold; */
+    width: fit-content;
+    margin-top: 95px;
+    margin-left: 5%;
+    position: absolute;
+    font-size: 15.8px;
+    font-family: 'Poppins', sans-serif;
+}
+.threediv{
+    width: 95%;
+    height: 80vh;
+    /* background-color: gold; */
+    margin-top: 65px;
+    display: flex;
+    justify-content: space-between;
+}
+.thone{
+    width: 30.5%;
+    height: 80vh;
+    /* background-color: rebeccapurple; */
+    position: relative;
+}
+.thone p{
+    font-family: sans-serif;
+    font-size: 15px;
+    margin-top: 15px;
+}
+.thone h3{
+    font-size: 21px;
+    margin-top: 20px;
+}
+.thone a{
+    text-decoration: underline;
+    color: gray;
+    font-family: sans-serif;
+}
+.thone-i{
+    width: 100%;
+    height: 50vh;
+    /* background-color: aqua; */
+    overflow: hidden;
+    
+}
+.thone-i img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.2s ease-in;
+}
+.thone-i:hover img{
+    transform: scale(1.05);
+}
+
+
+
+
+.thtwo{
+    width: 30.5%;
+    height: 80vh;
+    /* background-color: lawngreen; */
+}
+.thtwo p{
+    font-family: sans-serif;
+    font-size: 15px;
+    margin-top: 15px;
+}
+.thtwo h3{
+    font-size: 21px;
+    margin-top: 20px;
+}
+.thtwo a{
+    text-decoration: underline;
+    color: gray;
+    font-family: sans-serif;
+    font-size: 18px;
+}
+
+.thtwo-i{
+    width: 100%;
+    height: 50vh;
+    /* background-color: aqua; */
+    overflow: hidden;
+    
+}
+.thtwo-i img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.2s ease-in;
+}
+.thtwo-i:hover img{
+    transform: scale(1.05);
+}
+
+
+.ththree{
+    width: 30.5%;
+    height: 80vh;
+    /* background-color: aqua; */
+}
+
+.ththree p{
+    font-family: sans-serif;
+    font-size: 15px;
+    margin-top: 15px;
+}
+.ththree h3{
+    font-size: 21px;
+    margin-top: 20px;
+}
+.ththree a{
+    text-decoration: underline;
+    color: gray;
+    font-family: sans-serif;
+    font-size: 18px;
+}
+
+.ththree-i{
+    width: 100%;
+    height: 50vh;
+    /* background-color: aqua; */
+    overflow: hidden;
+    
+}
+.ththree-i img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.2s ease-in;
+}
+.ththree-i:hover img{
+    transform: scale(1.05);
+}
+
+
+
+
+
+
+.red{
+    width: 100%;
+    height: 90vh;
+    background-color: black;
+    display: flex;
+}
+.redimg{
+    margin-top: 70px;    
+    margin-left: 7%;
+}
+.redtext{
+    width: 70%;
+    height: 60vh;
+    /* background-color: khaki; */
+    margin-top: 60px;
+}
+.redtext h1{
+    margin-top: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 45px;
+    letter-spacing: -2px;
+    color: white;
+}
+.redtext p{
+    margin-top: 15px;
+    font-size: 17px;
+    letter-spacing: 1px;
+    line-height: 32px;
+    color: white;
+}
+
+
+
+.blue{
+    background-color: #4c917d;
+    height: 45vh;
+    width: 100%;
+    position: relative;
+}
+.bluea{
+    position: absolute;
+    width: 90%;
+    height: 30vh;
+    margin-top: 70px;
+    /* background-color: aqua; */
+    margin-left: 5%;
+    display: flex;
+}
+.bluetext{
+    margin-top: 15px;
+}
+.bluetext h1{
+    font-size: 48px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    line-height: 50px;
+}
+.bluetexty{
+    /* background-color: aqua; */
+    margin-left: 18%;
+    margin-top: 10px;
+}
+.bluetexty p{
+    font-size: 20px;
+    line-height: 35px;
+    font-family:  sans-serif;
+    color: white;
+}
+.ol{
+    display: flex;
+    gap: 20px;
+}
+.bbl{
+    margin-top: 45px;
+    display: flex;
+    align-items: center;
+}
+.bbl a{
+    color: white;
+    font-size: 19px;
+}
+.bbl  :hover{
+    color: gray;
+    scale: 0.999;
+    transition: 1s;
+}
+
+.bbll{
+    margin-top: 45px;
+    display: flex;
+    align-items: center;
+}
+.bbll a{
+    color: white;
+    font-size: 19px;
+}
+.bbll  :hover{
+    color: gray;
+    scale: 0.999;
+    transition: 1s;
+}
+.ri-arrow-right-circle-line{
+    font-size: 30px;
+    color: white;
+}
+.yellow{
+    background-color: black;
+    width: 100%;
+    height: 170vh;
+    position: relative;
+}
+.yellow-i{
+    width: 87%;
+    height: 150vh;
+    /* background-color: #222; */
+    margin: 150px 0 0 78px;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+}
+.yell h1{
+    font-size: 41px;
+    font-family: 'Poppins', sans-serif;
+    line-height: 50px;
+    color: white;
+}
+form{
+    width: 49%;
+    height: 110vh;
+    /* background-color: aqua; */
+}
+.yelh1{
+    color: white;
+    font-size: 40px;
+    font-weight: 800;
+}
+#select{
+    width: 400px;
+    color: #17d460;
+    font-size: 32px;
+    border: none;
+    background: transparent;
+    font-weight: 800;
+}
+#nbnb{
+    font-size: 15px;
+    color: black;
+}
+
+.ronaldo{
+    /* background-color: rebeccapurple; */
+    width: 100%;
+    height: 80vh;
+    margin-top: 50px;
+}
+.ronaldo-i{
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border: none;
+    border-bottom: 1.5px solid #757575;
+    color: white;
+    outline: none;
+    font-size: 17px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+.ronaldo-i:focus-within{
+    border-bottom: 1.5px solid #17d460;
+}
+.ronaldo-ii{
+    width: 80%;
+    height: 50px;
+    background: transparent;
+    border: none;
+    border-bottom: 1.5px solid #757575;
+    color: white;
+    outline: none;
+    font-size: 17px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+.ronaldo-ii:focus-within{
+    border-bottom: 1.5px solid #17d460;
+}
+.ronaldo-iii{
+    width: 17%;
+    height: 50px;
+    background: transparent;
+    border: none;
+    border-bottom: 1.5px solid #757575;
+    color: white;
+    outline: none;
+    font-size: 17px;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-top: 30px;
+}
+.ronaldo-iii:focus-within{
+    border-bottom: 1.5px solid #17d460;
+}
+.upp{
+    color: white;
+    margin-left: 10px;
+}
+.up-i{
+    margin-top: 10px;
+    color: gray;
+    line-height: 20px;
+}
+#oo{
+    color: #0036c6;
+}
+#lasto{
+    margin-top: 45px;
+}
+#lasto button{
+    width: 22%;
+    height: 45px;
+    padding: 10px;
+    border-radius: 40px;
+    border: none;
+    background: #232323;
+    color: grey;
+    transition: 0.5s;
+    cursor: pointer;
+}
+#lasto button:focus-within{
+    background: white;
+    color: black;
+}
+
+.blackout{
+    background-color: #232323;
+    width: 100%;
+    height: 110vh;
+    position: relative;
+}
+.backout-i{
+    width: 100%;
+    height: 80vh;
+    /* background-color: gold; */
+    margin-top: 80px;
+    position: absolute;
+    display: flex;
+}
+.blackout-ii{
+    width: fit-content;
+    height: fit-content;
+    /* background-color: green; */
+    display: flex;
+    align-items: center;
+    margin: 60px;
+    margin-top: 60px;
+}
+.ri-spotify-fill{
+    font-size: 50px;
+    color: white;
+}
+.blackout-ii h3{
+    font-size: 27px;
+    color: white;
+}
+.blackout-ii p{
+    font-size: 25px;
+    color: rgb(255, 251, 251);
+}
+
+
+
+
+.black-out-i{
+    display: flex;
+    /* background-color: #4c917d; */
+    width: 50%;
+    height: 70vh;
+    /* justify-content: space-evenly; */
+}
+.blackout-iii{
+    margin: 50px;
+    height: fit-content;
+    /* background-color: #17d460; */
+}
+#aa{
+    font-size: 17px;
+    font-family: sans-serif;
+    color:RGB(151, 151, 151)
+}
+.blackout-iii p{
+    font-size: 20px;
+    line-height: 35px;
+}
+.blackout-iii p a{
+    text-decoration: none;
+    color: white;
+}
+.blackout-iii p  :hover{
+    text-decoration: underline;
+}
+
+
+.blackout-iv{
+    width: 15%;
+    margin: 50px;
+    height: 50vh;
+    /* margin-right: 30%; */
+    /* background-color: #17d460; */
+}
+#ab{
+    font-size: 17px;
+    font-family: sans-serif;
+    color:RGB(151, 151, 151)
+}
+.blackout-iv p{
+    font-size: 20px;
+    line-height: 35px;
+}
+.blackout-iv p a{
+    text-decoration: none;
+    color: white;
+}
+.blackout-iv p  :hover{
+    text-decoration: underline;
+}
+
+.blackout-v{
+    width: 30%;
+    margin: 50px;
+    height: 60vh;
+    margin-right: 15%;
+    /* background-color: #17d460; */
+}
+#ac{
+    font-size: 17px;
+    font-family: sans-serif;
+    color:RGB(151, 151, 151)
+}
+.blackout-v p{
+    font-size: 20px;
+    line-height: 35px;
+}
+.blackout-v p a{
+    text-decoration: none;
+    color: white;
+}
+.blackout-v p  :hover{
+    text-decoration: underline;
+}
+.blackout-vi{
+    width: 10%;
+    height: 10vh;
+    right: 5%;
+    position: absolute;
+    margin-top: 40px;
+    /* background-color: #17d460; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#doo{
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: solid 1px white;
+    border-radius: 50%;
+    transition: 1s;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+#doo i:hover{
+    color: gray;
+}
+.ri-instagram-line{
+    color: white;
+    font-size: 20px;
+}
+.ri-facebook-fill{
+    color: white;
+    font-size: 20px;
+}
+.ri-twitter-x-fill{
+    color: white;
+    font-size: 20px;
+}
+#doo:hover{
+    scale: 0.999;
+    border:solid 1px gray;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.messi-vii{
+    width: 90%;
+    height: 10vh;
+    /* background-color: gray; */
+    margin-top: 47%;
+    color: white;
+    display: flex;
+    position: absolute;
+    margin-left: 4%;
+    top: 0;
+}
+.mose p a{
+    color: gray;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+.mose p a:hover{
+    text-decoration: underline;
+}
+.mose{
+    width: 82%;
+    height: 100%;
+    /* background-color: black; */
+    display: flex;
+    line-height: 35px;
+    gap: 40px;
+}
+.aye{
+    margin-left: 35px;
+}
+.aye-i{
+    margin-left: 35px;
+}
+.aye-iii{
+    margin-left: 17px;
+}
+.aye-iv{
+    margin-left: 10px;
+}
+.mose-i{
+    width: 18%;
+    height: 100%;
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.tick{
+    width: 23px;
+    height: 18px;
+    background-color: black;
+    position: relative;
+}
+.ick{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.usa a{
+    color: gray;
+    text-decoration: none;
+}

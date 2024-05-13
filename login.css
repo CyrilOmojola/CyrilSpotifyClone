@@ -1,0 +1,293 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #181818;
+    font-family: 'Noto Sans', sans-serif;
+    overflow-x: hidden;
+}
+.logodiv{
+    width: 1330px;
+    height: 6vh;
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    padding: 25px 0px 37px 35px;
+}
+.ri-spotify-fill{
+    margin-left: 15px;
+    margin-top: 16px;
+    font-size: 45px;
+}
+.rii{
+    margin-top: 16px;
+    font-size: 23px;
+}
+form{
+    justify-content: center;
+    display: flex;
+}
+.form-i{
+    margin-top: 30px;
+    background-color: black;
+    width: 55%;
+    height: 180vh;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
+}
+.textdiv{
+    margin-left: 27%;
+    width: fit-content;
+    /* background-color: darkblue */
+}
+.textdiv h1{
+    color: white;
+    margin-top: 65px;
+    font-size: 45px;
+    letter-spacing: -2px;
+    font-family: 'Noto Sans', sans-serif;
+}
+.buttondiv{
+    margin-top: 40px;
+    justify-content: center;
+    margin-left: 27%;
+}
+.but{
+    margin: 10px;
+    margin-top: 20px;
+    width: 330px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 15px 10px;
+    outline: none;
+    border-radius: 30px;
+    border: solid 1px grey;
+    font-size: 15px;
+    background: transparent;
+    color: #fff;
+}
+.but:hover {
+    outline: solid 1px white;
+    cursor: pointer;
+}
+.but-i{
+    margin: 10px;
+    margin-top: 0px;
+    width: 330px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 15px 10px;
+    outline: none;
+    border-radius: 30px;
+    border: solid 1px grey;
+    font-size: 15px;
+    background: transparent;
+    color: #fff;
+}
+.but-i:hover {
+    outline: solid 1px white;
+    cursor: pointer;
+}
+.but-ii{
+    margin: 10px;
+    margin-top: 0px;
+    width: 330px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 15px 10px;
+    outline: none;
+    border-radius: 30px;
+    border: solid 1px grey;
+    font-size: 15px;
+    background: transparent;
+    color: #fff;
+}
+.but-ii:hover {
+    outline: solid 1px white;
+    cursor: pointer;
+}
+.but-iii{
+    margin: 10px;
+    margin-top: 0px;
+    width: 330px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 15px 10px;
+    outline: none;
+    border-radius: 30px;
+    border: solid 1px grey;
+    font-size: 15px;
+    background: transparent;
+    color: #fff;
+}
+.but-iii:hover {
+    outline: solid 1px white;
+    cursor: pointer;
+}
+.google{
+    width: 20px;
+}
+.facebook{
+    width: 40px;
+}
+.apple{
+    width: 30px;
+}
+.hr{
+    width: 75%;
+    border: none;
+    height: 1px;
+    background: rgb(76, 75, 75);
+    margin-top: 40px;
+    margin-left: 13%;
+}
+.otherdiv{
+    width: fit-content;
+    height: 60vh;
+    margin-top: 60px;
+    margin-left: 27%;
+    /* background-color: aqua; */
+
+}
+.one{
+    color: white;
+    font-size: 14px;
+}
+#one{
+    width: 88%;
+    height: 30px;
+    margin-top: 10px;
+    padding: 8px 17px;
+    background: #121212; 
+    color: white;
+    background-color: transparent;  
+    font-size: 16px;
+    outline: none;
+    border: solid 1px gray;
+    border-radius: 3px;
+}
+#one:hover{
+    outline: 1px solid white;
+}
+#one:focus-within{
+    outline: 2px solid white;
+}
+.two{
+    color: white;
+    font-size: 14px;
+    margin-top: 15px;
+}
+#two{
+    width: 88%;
+    height: 30px;
+    margin-top: 10px;
+    padding: 8px 17px;
+    background: #121212; 
+    color: white;
+    background-color: transparent;  
+    font-size: 16px;
+    outline: none;
+    border: solid 1px gray;
+    border-radius: 3px;
+}
+#two:hover{
+    outline: 1px solid white;
+}
+#two:focus-within{
+    outline: 2px solid white;
+}
+.remember{
+    margin-top: 20px;
+    width: 60%;
+    height: 4vh;
+    display: flex;
+    align-items: center;
+    /* background-color: gold; */
+}
+.rr{
+    color: white;
+    font-size: 13px;
+}
+.buton{
+    margin-top: 40px;
+}
+.bbuu{
+    margin-top: 25px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 25px;
+    width: 300px;
+    height: 40px;
+    border: none;
+    border-radius: 30px;
+    background-color: #1ed760;
+    font-size: 17px;
+    cursor: pointer;
+}
+.bbuu a{
+    text-decoration: none;
+    color: #fff;
+}
+.bbuu:hover{
+    width: 302px;
+}
+.bbuu:focus-within{
+    cursor: no-drop;
+}
+.forget{
+    margin-left: 25%;
+    margin-top: 20px;
+    font-size: 14px;
+}
+.forget a{
+    color: white;
+}
+.forget a:hover{
+    color: #1ed760;
+}
+.alast{
+    width: 60%;
+    height: 5vh;
+    margin-top: 50px;
+    margin-left: 20%;
+    text-align: center;
+    /* background-color: aqua; */
+}
+.alast p{
+    color: gray;
+    font-size: 14px;
+}
+.alast a{
+    margin-left: 2%;
+    color: white;
+    font-size: 13.6px;
+}
+.alast a:hover{
+    color: #1ed760;
+}
+.lasti{
+    width: 70%;
+    height: 9vh;
+    margin-top: 75px;
+    margin-left: 20%;
+    /* background-color: aqua; */
+    font-size: 9px;
+    color: gray;
+}
+.lasti a{
+    color: gray;
+}
